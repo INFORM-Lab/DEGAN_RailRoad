@@ -120,7 +120,7 @@ Users of this framework can organize their dataset following the similar structu
 
 ## Files
 
-The main functions of the DEGAN Demo are in the folder [DEGAN](https://github.com/Test1122th/test1/tree/main/DEGAN).
+The main functions of the DEGAN Demo are in the folder [DEGAN](https://github.com/INFORM-Lab/DEGAN/tree/main/DEGAN).
 
 
 To create the**generative adversarial network (GAN)** , including building the generator and the discriminator model, setting their trainability, generating sample random noise, training and saving the trained discriminator models, refer to:
