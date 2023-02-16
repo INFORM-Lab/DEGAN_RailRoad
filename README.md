@@ -64,8 +64,7 @@ The framework contains three main components: GAN training, _**D**_ model select
 
 In the anomaly detection component, kernel density estimation is used to assign a probability distribution to the suspicious data points identified by the selected _**D**_ model and identify the areas with the highest probability of being anomalies.
 
-<
-src="https://github.com/INFORM-Lab/DEGAN/blob/main/imgs/degan_framework.png" width="800" height="650" />
+<img src="https://github.com/INFORM-Lab/DEGAN/blob/main/imgs/degan_framework.png" width="800" height="650" />
 
 ### Time Series
 
