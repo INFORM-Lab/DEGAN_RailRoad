@@ -94,14 +94,14 @@ $ pip install -r requirements.txt
   
 ### Demo Project
 
-[demo_BE.ipynb](demo_BE.ipynb) is an example of how to apply the DEGAN framework with your own time series datasets.
+[demo_RR.ipynb](demo_RR.ipynb) is an example of how to apply the DEGAN framework with your own time series datasets.
 
 To test and use the framework, you may get a local copy and run the example steps in the demo file.
 
 
 ### Sample Dataset
 
-The sample dataset is aquired from an [annotated dataset for energy anomaly detection in commercial buildings](https://arxiv.org/abs/2203.17256). For the general usage of the project, the original sample data was simply pre-processed into the following datasets:
+The sample dataset is aquired from a set of time series signals collected from a Railroad project. The sample data are not presented in this project repo. For the general usage of the project, the sample data can be formed in the following dataset structure:
 
 ```
     ├── Data                           # Data files
@@ -120,7 +120,7 @@ Users of this framework can organize their dataset following the similar structu
 
 ## Files
 
-The main functions of the DEGAN Demo are in the folder [DEGAN](https://github.com/INFORM-Lab/DEGAN/tree/main/DEGAN).
+The main functions of the DEGAN Demo are in the folder [DEGAN](https://github.com/INFORM-Lab/DEGAN_RailRoad/DEGAN).
 
 
 To create the**generative adversarial network (GAN)** , including building the generator and the discriminator model, setting their trainability, generating sample random noise, training and saving the trained discriminator models, refer to:
